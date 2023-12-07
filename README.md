@@ -110,7 +110,7 @@ Data Wrangling: This is the first step where inspection of data is done to make 
 
 ## Generic Question
 1. How many unique countries does the data have?
-2. Which country has the higher completion rate.
+2. Which country has the higher education enrollment rate.
 
 
    
