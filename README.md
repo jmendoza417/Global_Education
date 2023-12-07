@@ -17,77 +17,77 @@ The main reason of this project is to get insights about out-of-school rates, co
 
 It was obtained from https://www.kaggle.com/datasets/nelgiriyewithana/world-educational-data, the data contain 29 columns and  202 rows.
 
-1	Countries and Areas: Name of the countries and areas.
+1.	Countries and Areas: Name of the countries and areas.
 
-2	Birth_Rate: Birth rate in the respective countries/areas.
+2.	Birth_Rate: Birth rate in the respective countries/areas.
 
-3	Completion_Rate_Lower_Secondary_Female: Completion rate for lower secondary education among females.
-
-
-4	Completion_Rate_Lower_Secondary_Male: Completion rate for lower secondary education among males.
+3.	Completion_Rate_Lower_Secondary_Female: Completion rate for lower secondary education among females.
 
 
-5	Completion_Rate_Primary_Female: Completion rate for primary education among females.
+4.	Completion_Rate_Lower_Secondary_Male: Completion rate for lower secondary education among males.
 
 
-6	Completion_Rate_Primary_Male: Completion rate for primary education among males.
+5.	Completion_Rate_Primary_Female: Completion rate for primary education among females.
 
 
-7	Completion_Rate_Upper_Secondary_Female: Completion rate for upper secondary education among females.
+6.	Completion_Rate_Primary_Male: Completion rate for primary education among males.
 
 
-8	Completion_Rate_Upper_Secondary_Male: Completion rate for upper secondary education among males.
+7.	Completion_Rate_Upper_Secondary_Female: Completion rate for upper secondary education among females.
 
 
-9	Grade_2_3_Proficiency_Math: Proficiency in math for grade 2-3 students.
+8.	Completion_Rate_Upper_Secondary_Male: Completion rate for upper secondary education among males.
 
 
-10	Grade_2_3_Proficiency_Reading: Proficiency in reading for grade 2-3 students.
+9.	Grade_2_3_Proficiency_Math: Proficiency in math for grade 2-3 students.
 
 
-11	Gross_Primary_Education_Enrollment: Gross enrollment in primary education.
+10.	Grade_2_3_Proficiency_Reading: Proficiency in reading for grade 2-3 students.
 
 
-12	Gross_Tertiary_Education_Enrollment: Gross enrollment in tertiary education.
+11	.Gross_Primary_Education_Enrollment: Gross enrollment in primary education.
 
 
-13	Latitude: Latitude coordinates of the geographical location.
+12.	Gross_Tertiary_Education_Enrollment: Gross enrollment in tertiary education.
 
 
-14	Longitude: Longitude coordinates of the geographical location.
+13.	Latitude: Latitude coordinates of the geographical location.
 
 
-15	Lower_Secondary_End_Proficiency_Math: Proficiency in math at the end of lower secondary education.
+14.	Longitude: Longitude coordinates of the geographical location.
 
 
-16	Lower_Secondary_End_Proficiency_Reading: Proficiency in reading at the end of lower secondary education.
+15.	Lower_Secondary_End_Proficiency_Math: Proficiency in math at the end of lower secondary education.
 
 
-17	OOSR_Lower_Secondary_Age_Female: Out-of-school rate for lower secondary age females.
+16.	Lower_Secondary_End_Proficiency_Reading: Proficiency in reading at the end of lower secondary education.
 
-18	OOSR_Lower_Secondary_Age_Male: Out-of-school rate for lower secondary age males.
 
-19	OOSR_Pre0Primary_Age_Female: Out-of-school rate for pre-primary age females.
+17.	OOSR_Lower_Secondary_Age_Female: Out-of-school rate for lower secondary age females.
 
-20	OOSR_Pre0Primary_Age_Male: Out-of-school rate for pre-primary age males.
+18.	OOSR_Lower_Secondary_Age_Male: Out-of-school rate for lower secondary age males.
 
-21	OOSR_Primary_Age_Female: Out-of-school rate for primary age females.
+19.	OOSR_Pre0Primary_Age_Female: Out-of-school rate for pre-primary age females.
 
-22	OOSR_Primary_Age_Male: Out-of-school rate for primary age males.
+20.	OOSR_Pre0Primary_Age_Male: Out-of-school rate for pre-primary age males.
 
-23	OOSR_Upper_Secondary_Age_Female: Out-of-school rate for upper secondary age females.
+21.	OOSR_Primary_Age_Female: Out-of-school rate for primary age females.
 
-24	OOSR_Upper_Secondary_Age_Male: Out-of-school rate for upper secondary age males.
+22.	OOSR_Primary_Age_Male: Out-of-school rate for primary age males.
 
-25	Primary_End_Proficiency_Math: Proficiency in math at the end of primary education.
+23.	OOSR_Upper_Secondary_Age_Female: Out-of-school rate for upper secondary age females.
 
-26	Primary_End_Proficiency_Reading: Proficiency in reading at the end of primary education.
+24.	OOSR_Upper_Secondary_Age_Male: Out-of-school rate for upper secondary age males.
 
-27	Unemployment_Rate: Unemployment rate in the respective countries/areas.
+25.	Primary_End_Proficiency_Math: Proficiency in math at the end of primary education.
 
-28	Youth_15_24_Literacy_Rate_Female: Literacy rate among female youths aged 15-24.
+26.	Primary_End_Proficiency_Reading: Proficiency in reading at the end of primary education.
 
-29	Youth_15_24_Literacy_Rate_Male: Literacy rate among male youths aged 15-24.
+27.	Unemployment_Rate: Unemployment rate in the respective countries/areas.
+
+28.	Youth_15_24_Literacy_Rate_Female: Literacy rate among female youths aged 15-24.
+
+29.	Youth_15_24_Literacy_Rate_Male: Literacy rate among male youths aged 15-24.
 
 ## Analysis List
 
@@ -104,6 +104,13 @@ Data Wrangling: This is the first step where inspection of data is done to make 
 Build a database
 Create table and insert the data.
 Select columns with null values in them. There are no null values in our database as in creating the tables, we set NOT NULL for each field, hence null values are filtered out.
+
+## Generic Question
+1. How many unique countries does the data have?
+2. Which country has the higher completion rate.
+
+
+   
 
    
 
