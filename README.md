@@ -101,11 +101,12 @@ Conduct analysis on the data to understand the different countries with the high
 
  ## Approach Used
 Data Wrangling: This is the first step where inspection of data is done to make sure NULL values and missing values are detected and data replacement methods are used to replace, missing or NULL values.
-1.Build a database
 
-2.Create table and insert the data.
+1. Build a database
 
-3.Select columns with null values in them. There are no null values in our database as in creating the tables, we set NOT NULL for each field, hence null values are filtered out.
+2. Create table and insert the data.
+
+3. Select columns with null values in them. There are no null values in our database as in creating the tables, we set NOT NULL for each field, hence null values are filtered out.
 
 ## Generic Question
 1. How many unique countries does the data have?
