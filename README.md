@@ -119,7 +119,7 @@ Data Wrangling: This is the first step where inspection of data is done to make 
 8. What is the the higher completion per male?
 9. What is the the lowest completion per male?
 10. What is the the higher completion per female?
-11. What is the the lowest completion per male?
+11. What is the the lowest completion per female?
 12. Which countries have the higher Unployment rate according to lower rate completion?
 
 
