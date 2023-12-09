@@ -4,7 +4,7 @@
 
 This project aim to explore, the status of education in different countries and regions, identifying disparities and trends.
 Also identify gender disparities based differences in education, including out-of-school rates and literacy;
-Use completion rates to assess the effectiveness of education policies.
+Use completion rates to compare the effectiveness of education policies.
 
 The data set was obtined from https://www.kaggle.com/datasets/nelgiriyewithana/world-educational-data.
 
@@ -108,9 +108,19 @@ Data Wrangling: This is the first step where inspection of data is done to make 
 
 3. Select columns with null values in them. There are no null values in our database as in creating the tables, we set NOT NULL for each field, hence null values are filtered out.
 
-## Generic Question
+##  Questions
 1. How many unique countries does the data have?
-2. Which country has the higher education enrollment rate.
+2. Which country has the higher education enrollment rate?
+3. Which country has the lowest education primary enrollment rate?
+4. Which country has the higher rate of male people out of school in pre primary years?
+5. Which country has the lowest rate of male people out of school in pre primary years?
+6. Which country has the higher rate of female people out of school in pre primary years?
+7. Which country has the lowest rate of female people out of school in pre primary years?
+8. What is the the higher completion per male?
+9. What is the the lowest completion per male?
+10. What is the the higher completion per female?
+11. What is the the lowest completion per male?
+12. Which countries have the higher Unployment rate according to lower rate completion?
 
 
    
